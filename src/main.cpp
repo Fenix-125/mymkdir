@@ -34,7 +34,7 @@ int main(int argc, char **argv) {
     po::notify(vm);
 
     if (vm.count("help")) {
-        std::cout << "Usage:\n  add [a] [b]\n" << visible << std::endl;
+        std::cout << "Usage:\n  mymkdir [-h|--help] [-p]  <dirname>\n" << visible << std::endl;
         return EXIT_SUCCESS;
     }
 
