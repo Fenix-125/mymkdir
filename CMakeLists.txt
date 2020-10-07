@@ -15,7 +15,6 @@ option(ENABLE_PVS_STUDIO    "Use PVS-Studio static code analyzer."  OFF) # Optio
 option(ENABLE_SANITIZERS    "Use sanitizers to detect errors."      OFF) # Option for the test builds. Do not use it in the production builds.
 
 # Project source compilation
-include_directories(inc)
 add_executable(mymkdir src/main.cpp)
 
 # Add external packages
